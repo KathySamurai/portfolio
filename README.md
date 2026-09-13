@@ -1,4 +1,4 @@
-# 伊東 芳徳 — Portfolio
+# Yoshinori Ito — Portfolio
 
 GitHub Pages 向けの静的ポートフォリオです。
 

@@ -30,7 +30,6 @@ body {
   font-family: var(--sans);
   font-size: 1rem;
   line-height: 1.8;
-  letter-spacing: 0.01em;
 }
 
 body.is-menu-open {
@@ -161,6 +160,7 @@ img {
   margin: 0 0 2rem;
   color: var(--ink-soft);
   font-size: 1.05rem;
+  letter-spacing: 0.5px;
 }
 
 .hero-meta {
@@ -179,12 +179,14 @@ img {
 
 .section h2 {
   margin: 0 0 1.75rem;
-  font-size: 2.1rem;
-  font-weight: 600;
+  font-size: 2.4rem;
+  font-weight: bold;
+  letter-spacing: 4px;
 }
 
 .prose {
   max-width: 42rem;
+  letter-spacing: 0.5px;
 }
 
 .prose p {
@@ -218,6 +220,7 @@ img {
   margin: 0;
   color: var(--ink-soft);
   font-size: 0.95rem;
+  letter-spacing: 0.5px;
 }
 
 .skill-table {
@@ -240,18 +243,21 @@ img {
 
 .skill-table td {
   color: var(--ink-soft);
+  letter-spacing: 0.5px;
 }
 
 .note {
   margin: 1.4rem 0 0;
   color: var(--ink-soft);
   font-size: 0.95rem;
+  letter-spacing: 0.5px;
 }
 
 .section-lead {
   max-width: 42rem;
   margin: -0.5rem 0 1.5rem;
   color: var(--ink-soft);
+  letter-spacing: 0.5px;
 }
 
 .section-lead a {
@@ -288,8 +294,8 @@ img {
 }
 
 .job-title {
-  font-size: 1.12rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .job-role {
@@ -316,6 +322,10 @@ img {
 .job-body {
   padding: 0 1.2rem 1.25rem;
   color: var(--ink-soft);
+}
+
+.job-body p {
+  letter-spacing: 0.5px;
 }
 
 .job-body p,

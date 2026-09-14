@@ -96,6 +96,12 @@ a {
   margin: 0 0 0.7rem;
 }
 
+.doc p:not(.meta):not(.period):not(.role):not(.tech),
+.doc li,
+.doc td {
+  letter-spacing: 0.5px;
+}
+
 .doc ul {
   margin: 0 0 0.7rem;
   padding-left: 1.2rem;

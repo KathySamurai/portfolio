@@ -10,7 +10,7 @@
   --max: 68rem;
   --nav-h: 4.25rem;
   --serif: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
-  --sans: "IBM Plex Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+  --sans: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
 *,
@@ -137,6 +137,7 @@ img {
 .hero {
   padding: 5.5rem 0 4.5rem;
   border-bottom: 1px solid var(--line);
+  font-family: var(--serif);
 }
 
 .eyebrow {
@@ -178,7 +179,7 @@ img {
 
 .section h2 {
   margin: 0 0 1.75rem;
-  font-size: 1.7rem;
+  font-size: 2.1rem;
   font-weight: 600;
 }
 

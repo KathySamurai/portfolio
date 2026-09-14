@@ -16,8 +16,11 @@ GitHub Pages 向けの静的ポートフォリオです。
 ## 構成
 
 - `index.html` — ページ本体
+- `resume.html` — 詳細な職務経歴書（印刷 / PDF 保存）
 - `assets/style.css` — スタイル
+- `assets/resume.css` — 職務経歴書のスタイル
 - `assets/main.js` — モバイルメニューと現在位置
+- `assets/resume.js` — 印刷ダイアログ
 - `favicon.svg`
 
 ビルド手順はありません。静的ファイルだけです。

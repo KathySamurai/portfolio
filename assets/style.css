@@ -251,6 +251,12 @@ img {
   font-size: 0.95rem;
 }
 
+.section-lead {
+  max-width: 42rem;
+  margin: -0.5rem 0 1.5rem;
+  color: var(--ink-soft);
+}
+
 .timeline {
   display: grid;
   gap: 0.85rem;
